@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LumaScope Pro</title>
+    <style>
+        :root {
+            --bg-color: #0b0d12;
+            --card-bg: #141822;
+            --text-primary: #f0f4f8;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --border-color: #1e293b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 8px 0;
+            color: #ffffff;
+        }
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 20px;
+            color: var(--accent-cyan);
+            margin-top: 32px;
+            margin-bottom: 12px;
+            border-left: 3px solid var(--accent-cyan);
+            padding-left: 10px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-green);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">LUMASCOPE PRO</div>
+            <h1>プライバシーポリシー (Privacy Policy)</h1>
+            <div class="last-updated">最終改定日: 2026年10月27日 (Effective Date: October 27, 2026)</div>
+        </div>
+
+        <div class="badge">🔒 ゼロ・データ収集ポリシー (No Data Collection)</div>
+
+        <p>LumaScope Pro（以下「本アプリ」）は、映像クリエイター、カラーリスト、編集者のためのプロフェッショナル向け波形・色域モニターアプリケーションです。開発者 GEN KANAIZUKA は、ユーザーのプライバシーと機密映像資産の保護を最重要事項として位置付けています。</p>
+
+        <h2>1. 個人情報およびデータの収集について</h2>
+        <p><strong>本アプリは、いかなる個人情報、トラッキングデータ、利用状況ログ、分析テレメトリも収集・蓄積・送信いたしません。</strong></p>
+        <ul>
+            <li>外部分析SDK（Google Analytics、Firebase、Facebook等）は一切含まれていません。</li>
+            <li>ユーザーアカウントの作成やログインは一切不要です。</li>
+            <li>広告表示機能は一切ありません。</li>
+        </ul>
+
+        <h2>2. カメラおよび画面収録権限の利用目的</h2>
+        <p>本アプリは、映像波形・ベクトルスコープをリアルタイム解析するために以下のmacOS権限を要求します：</p>
+        <ul>
+            <li><strong>カメラ権限 (Camera Access)</strong>: Blackmagic UltraStudio / DeckLink や UVC 対応 HDMI/SDI キャプチャカードから受信したリアルタイム映像信号をスコープ解析するためにのみ使用します。</li>
+            <li><strong>画面収録権限 (Screen Recording)</strong>: DaVinci Resolve、Premiere Pro、Avid Media Composer 等の編集アプリケーションのクリーンフィードまたはプレビュー画面を直接スコープ解析するためにのみ使用します。</li>
+            <li><strong>音声入力権限 (Microphone/Audio Input)</strong>: キャプチャ信号のラウドネス（LUFS）およびリアルタイムVU/ピークメーター表示のためにのみ使用します。</li>
+        </ul>
+        <p><strong>重要:</strong> 入力された映像・音声データは、Mac本体の GPU (Metal) メモリ上でのみ完全ローカル処理され、ネットワーク上に送信されたり、ユーザーが明示的に「静止画保存」を行わない限りディスクに書き込まれることはありません。</p>
+
+        <h2>3. アプリ内課金および決済について</h2>
+        <p>本アプリのライセンス購入（フリートライアルおよびライフタイムアンロック）は、すべて Apple の公式 **StoreKit 2** システムを介して処理されます。開発者がユーザーのクレジットカード情報、銀行口座情報、請求先住所等を閲覧または保持することはありません。</p>
+
+        <h2>4. プライバシーポリシーの改定</h2>
+        <p>本ポリシーは、法令の変更または機能追加に伴い改定される場合があります。重要な変更がある場合は、本ウェブサイトまたはApp Storeのアップデート情報にて告知いたします。</p>
+
+        <h2>5. お問い合わせ窓口</h2>
+        <p>プライバシーに関するご質問、サポートのご依頼は下記までお気軽にご連絡ください：</p>
+        <p>
+            <strong>LumaScope Support Team</strong><br>
+            Developer: GEN KANAIZUKA<br>
+            Email: <a href="mailto:support@lumascope.pro">support@lumascope.pro</a><br>
+            Support Site: <a href="https://lumascope.pro/support.html">https://lumascope.pro/support.html</a>
+        </p>
+
+        <div class="footer">
+            &copy; 2026 GEN KANAIZUKA. All Rights Reserved. LumaScope Pro.
+        </div>
+    </div>
+</body>
+</html>

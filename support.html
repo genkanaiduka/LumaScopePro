@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - LumaScope Pro</title>
+    <style>
+        :root {
+            --bg-color: #0b0d12;
+            --card-bg: #141822;
+            --text-primary: #f0f4f8;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --border-color: #1e293b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 8px 0;
+            color: #ffffff;
+        }
+        .contact-card {
+            background: rgba(6, 182, 212, 0.08);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        .contact-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            margin-bottom: 6px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #ffffff;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-q {
+            font-weight: 700;
+            color: var(--accent-cyan);
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+        .faq-a {
+            color: var(--text-secondary);
+            font-size: 14.5px;
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">LUMASCOPE PRO</div>
+            <h1>サポート＆ヘルプ (Support & Help)</h1>
+            <p style="margin: 0; color: var(--text-secondary);">LumaScope Pro をご利用いただきありがとうございます。ご不明点やトラブルはお気軽にお問い合わせください。</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-title">✉️ お問い合わせ窓口 (Direct Contact)</div>
+            <p style="margin: 0; font-size: 14.5px;">
+                不具合の報告、機能のご要望、購入に関するお問い合わせは下記メールアドレスまでお願いいたします。<br>
+                <strong>Email:</strong> <a href="mailto:support@lumascope.pro">support@lumascope.pro</a><br>
+                <em>※通常 24〜48 時間以内にご返信いたします。</em>
+            </p>
+        </div>
+
+        <h2>よくあるご質問 (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. 7日間のフリートライアルについて教えてください。</div>
+            <div class="faq-a">アプリの初回起動時から 7 日間、すべてのプロ向け機能を無料でお試しいただけます。期間終了後はライフタイムアンロック（$59.99 の一度きりの購入）によって、制限なく永久にご利用いただけます。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. 購入したライセンスを別の Mac で復元できますか？</div>
+            <div class="faq-a">はい、同一の Apple ID でサインインしている Mac であれば、画面右上の「TRIAL / PRO」バッジをクリックし、「Restore Purchases（購入の復元）」を押すことで追加料金なしでライセンスを復元できます。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. Blackmagic UltraStudio / DeckLink から映像を入力するには？</div>
+            <div class="faq-a">上部メニューの「MODE SELECT」をクリックし、「CAPTURE DEVICE」一覧から接続されている Blackmagic デバイス（例: UltraStudio Monitor 3G, UltraStudio 4K Mini）を選択してください。SDI/HDMI 信号レート（23.98p〜60p）に自動ロックし、超低遅延で波形が表示されます。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. DaVinci Resolve や Premiere Pro、Avid との連携方法は？</div>
+            <div class="faq-a">「MODE SELECT」メニューから「DaVinci Resolve」「Adobe Premiere Pro」「Avid Media Composer」のいずれかを選択してください。再生中のプログラムモニターやコンポーザー画面を直接切り出し、フルレートで波形・ベクトルスコープを表示します。「CROP」ボタンで関心領域（ROI）を自由に調整することも可能です。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. 動作環境（システム要件）は？</div>
+            <div class="faq-a">macOS 14.0 (Sonoma) または macOS 15.0 (Sequoia) 以降を搭載した Mac に対応しています。Apple Silicon (M1/M2/M3/M4 以降) のハードウェア GPU (Metal) に最適化されています。</div>
+        </div>
+
+        <div class="footer">
+            <p><a href="privacy.html">プライバシーポリシー (Privacy Policy)</a> | <a href="index.html">ホーム</a></p>
+            &copy; 2026 GEN KANAIZUKA. All Rights Reserved. LumaScope Pro.
+        </div>
+    </div>
+</body>
+</html>
