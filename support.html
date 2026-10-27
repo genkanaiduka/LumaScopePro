@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Help - LumaScope Pro</title>
+    <style>
+        :root {
+            --bg-color: #0b0d12;
+            --card-bg: #141822;
+            --text-primary: #f0f4f8;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --border-color: #1e293b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 8px 0;
+            color: #ffffff;
+        }
+        .contact-card {
+            background: rgba(6, 182, 212, 0.08);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        .contact-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            margin-bottom: 6px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #ffffff;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+        }
+        .faq-q {
+            font-weight: 700;
+            color: var(--accent-cyan);
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+        .faq-a {
+            color: var(--text-secondary);
+            font-size: 14.5px;
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">LUMASCOPE PRO</div>
+            <h1>Support & Help Center</h1>
+            <p style="margin: 0; color: var(--text-secondary);">Thank you for using LumaScope Pro. If you have any questions, bug reports, or feature requests, we are here to help.</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-title">✉️ Direct Developer Support</div>
+            <p style="margin: 0; font-size: 14.5px;">
+                For prompt technical assistance, licensing inquiries, or feedback, please email:<br>
+                <strong>Email:</strong> <a href="mailto:genkanaiduka@gmail.com">genkanaiduka@gmail.com</a><br>
+                <em>We typically respond within 24 to 48 hours.</em>
+            </p>
+        </div>
+
+        <h2>Frequently Asked Questions (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. How does the 7-day free trial work?</div>
+            <div class="faq-a">When you first launch LumaScope Pro, you gain full, unrestricted access to all professional scopes, NLE clean feeds, and capture features for 7 days. After the trial period ends, you can unlock lifetime access for a one-time purchase of $59.99 (no monthly subscriptions or recurring fees).</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. How do I restore my purchase on another Mac?</div>
+            <div class="faq-a">Click the "TRIAL" or "PRO" badge in the upper-right corner of the top menu bar, then click "Restore Purchases". As long as you are signed in with the same Apple ID used for the original purchase, your license will be restored instantly at no extra charge.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. How do I capture live SDI / HDMI feeds from Blackmagic devices?</div>
+            <div class="faq-a">Connect your Blackmagic UltraStudio or DeckLink card via Thunderbolt / PCIe. In LumaScope Pro, click "MODE SELECT" in the top menu and select your device under "CAPTURE DEVICE". The app automatically locks onto incoming broadcast frame rates (from 23.98p to 60p) with zero FIFO buildup and low latency.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. How do I monitor DaVinci Resolve, Premiere Pro, or Avid?</div>
+            <div class="faq-a">In the "MODE SELECT" dropdown, choose "DaVinci Resolve", "Adobe Premiere Pro", or "Avid Media Composer". LumaScope Pro will directly capture and analyze the program monitor feed. Use the "CROP" button to isolate a Region of Interest (ROI) such as an actor's face or color chart.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Q. What are the system requirements?</div>
+            <div class="faq-a">LumaScope Pro requires macOS 14.0 (Sonoma) or macOS 15.0 (Sequoia) or later. The engine is native to Apple Silicon (M1, M2, M3, M4) hardware and leverages Metal compute pipelines for zero-latency 60fps scope rendering.</div>
+        </div>
+
+        <div class="footer">
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="index.html">Home</a></p>
+            &copy; 2026 GEN KANAIZUKA. All Rights Reserved. LumaScope Pro.
+        </div>
+    </div>
+</body>
+</html>
